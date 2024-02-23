@@ -1,0 +1,20 @@
+{
+  "name": "nameofauthor/projectname",
+  "license": "License Type",
+  "autoload": {
+    "psr-4": {
+      "app\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "",
+      "homepage": "",
+      "role": "",
+      "email": ""
+    }
+  ],
+  "require": {
+    "ngframer/ngframer.php.base": "dev-main"
+  }
+}
