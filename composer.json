@@ -8,10 +8,10 @@
   },
   "authors": [
     {
-      "name": "",
-      "homepage": "",
-      "role": "",
-      "email": ""
+      "name": "Name of Author",
+      "homepage": "https://yourwebsite.com",
+      "role": "Your Role",
+      "email": "email@yourwebsite.com"
     }
   ],
   "require": {

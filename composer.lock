@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b3d3d2b65040b493984a1bd8f4f2bb6e",
+    "packages": [
+        {
+            "name": "ngframer/ngframer.php.base",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NGFramer/ngframer.php.base.git",
+                "reference": "5f430155683025456a3045c99df7fd35b8ec07fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NGFramer/ngframer.php.base/zipball/5f430155683025456a3045c99df7fd35b8ec07fe",
+                "reference": "5f430155683025456a3045c99df7fd35b8ec07fe",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NGFramer\\NGFramerPHPBase\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kishor Neupane",
+                    "homepage": "https://github.com/neupkishor"
+                }
+            ],
+            "description": "Base files of the NGFramerPHP framework.",
+            "support": {
+                "issues": "https://github.com/NGFramer/ngframer.php.base/issues",
+                "source": "https://github.com/NGFramer/ngframer.php.base/tree/main"
+            },
+            "time": "2024-02-12T14:12:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ngframer/ngframer.php.base": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
