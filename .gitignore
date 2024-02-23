@@ -1,0 +1,9 @@
+# Directories to ignore.
+vendor
+.idea
+
+# Files to ignore.
+
+
+# Ignore the following custom files.
+config/database.php
