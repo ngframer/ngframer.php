@@ -1,6 +1,7 @@
 {
-  "name": "nameofauthor/projectname",
-  "license": "License Type",
+  
+  "name": "ngframer/ngframer.php",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "app\\": ""
