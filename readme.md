@@ -6,4 +6,4 @@ Ready to dive into NG Framer? Our [Get Started Guide](https://ngframer.github.io
 
 ## License Information
 NG Framer is released under the MIT License, a permissive open-source license that grants users the freedom to use, modify, and distribute the framework. The MIT License allows for flexibility, making NG Framer an ideal choice for both personal and commercial projects.
-For a more detailed understanding of NG Framer's licensing terms, consult the [license.md](https://github.com/ngframer/ngframer.php/license.md) file in the repository. This document provides in-depth information about the rights and limitations granted by the MIT License, ensuring compliance with open-source standards.
+For a more detailed understanding of NG Framer's licensing terms, consult the 'license.md' file in the repository. This document provides in-depth information about the rights and limitations granted by the MIT License, ensuring compliance with open-source standards.
