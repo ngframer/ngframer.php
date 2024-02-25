@@ -6,6 +6,5 @@ class Index extends \NGFramer\NGFramerPHPBase\Controller
 {
     public function index()
     {
-
     }
 }
