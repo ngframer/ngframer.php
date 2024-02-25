@@ -9,10 +9,12 @@
   },
   "authors": [
     {
-      "name": "Name of Author",
-      "homepage": "https://yourwebsite.com",
-      "role": "Your Role",
-      "email": "email@yourwebsite.com"
+      "name": "NG Framer",
+      "homepage": "https://github.com/NGFramer"
+    },
+    {
+      "name": "Kishor Neupane",
+      "homepage": "https://github.com/neupkishor"
     }
   ],
   "require": {
