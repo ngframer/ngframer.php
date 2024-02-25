@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  app:
+    build: ./docker
+    image: ngframer/ngframerphp
+    ports:
+      - "8080:80"
+    volumes:
+      # Mount root directory to /var/www directory in container (default for nginx/apache root directory). So we use the same directory structure as in container.
+      - ./:/var/www
+
+  db:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ngframer
+      MYSQL_USER: ngframer
+      MYSQL_PASSWORD: ngframer
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - ngframer-network
