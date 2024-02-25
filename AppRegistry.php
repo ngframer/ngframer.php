@@ -9,3 +9,4 @@ $appRegistry = Application::$application->appRegistry;
 
 // Setting the custom routes for the Application.
 $appRegistry->setCallback('get', '/', [\app\controllers\Index::class, 'index']);
+$appRegistry->setCallback('get', '/error', [\app\controllers\Error::class, 'index']);
