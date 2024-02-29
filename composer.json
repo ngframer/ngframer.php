@@ -18,6 +18,7 @@
     }
   ],
   "require": {
-    "ngframer/ngframer.php.base": "dev-main"
+    "ngframer/ngframer.php.base": "v1.0.1",
+    "ngframer/ngframer.php.dbservice": "v1.0.0"    
   }
 }
