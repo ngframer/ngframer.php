@@ -1,6 +1,7 @@
 {
   
   "name": "ngframer/ngframer.php",
+  "description": "Build your application with NGFramer builder framework.",
   "license": "MIT",
   "autoload": {
     "psr-4": {
