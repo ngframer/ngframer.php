@@ -4,23 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3d3d2b65040b493984a1bd8f4f2bb6e",
+    "content-hash": "5ded315ba76ba921ed1bc0c9439eb3d0",
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
-            "version": "dev-main",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NGFramer/ngframer.php.base.git",
-                "reference": "5f430155683025456a3045c99df7fd35b8ec07fe"
+                "reference": "33106baa6225abb16b26942d0dbb78a11e22c0af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NGFramer/ngframer.php.base/zipball/5f430155683025456a3045c99df7fd35b8ec07fe",
-                "reference": "5f430155683025456a3045c99df7fd35b8ec07fe",
+                "url": "https://api.github.com/repos/NGFramer/ngframer.php.base/zipball/33106baa6225abb16b26942d0dbb78a11e22c0af",
+                "reference": "33106baa6225abb16b26942d0dbb78a11e22c0af",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -33,24 +32,67 @@
             ],
             "authors": [
                 {
+                    "name": "NG Framer",
+                    "homepage": "https://github.com/ngframer"
+                },
+                {
                     "name": "Kishor Neupane",
                     "homepage": "https://github.com/neupkishor"
                 }
             ],
-            "description": "Base files of the NGFramerPHP framework.",
+            "description": "Base files for the NGFramerPHP framework.",
             "support": {
                 "issues": "https://github.com/NGFramer/ngframer.php.base/issues",
-                "source": "https://github.com/NGFramer/ngframer.php.base/tree/main"
+                "source": "https://github.com/NGFramer/ngframer.php.base/tree/v1.0.1"
             },
-            "time": "2024-02-12T14:12:48+00:00"
+            "time": "2024-02-29T07:24:48+00:00"
+        },
+        {
+            "name": "ngframer/ngframer.php.dbservice",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NGFramer/ngframer.php.dbservice.git",
+                "reference": "5411c207341033e0b4486f16a31c420f9adcc433"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NGFramer/ngframer.php.dbservice/zipball/5411c207341033e0b4486f16a31c420f9adcc433",
+                "reference": "5411c207341033e0b4486f16a31c420f9adcc433",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NGFramer\\NGFramerPHPDbService\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "NG Framer",
+                    "homepage": "https://github.com/ngframer"
+                },
+                {
+                    "name": "Kishor Neupane",
+                    "homepage": "https://github.com/neupkishor"
+                }
+            ],
+            "description": "Simple yet powerful database layer for PHP.",
+            "support": {
+                "issues": "https://github.com/NGFramer/ngframer.php.dbservice/issues",
+                "source": "https://github.com/NGFramer/ngframer.php.dbservice/tree/v1.0.0"
+            },
+            "time": "2024-02-29T11:12:10+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ngframer/ngframer.php.base": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
