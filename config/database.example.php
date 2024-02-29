@@ -1,6 +1,6 @@
 <?php
 
-namespace ngframerphp\config\Database;
+namespace ngframerphp\config;
 
 define("DB_NAME", "");
 define("DB_HOST", "localhost");
