@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ded315ba76ba921ed1bc0c9439eb3d0",
+    "content-hash": "f686a68edeff2d82186451d712cf5fb5",
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
@@ -49,16 +49,16 @@
         },
         {
             "name": "ngframer/ngframer.php.dbservice",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NGFramer/ngframer.php.dbservice.git",
-                "reference": "5411c207341033e0b4486f16a31c420f9adcc433"
+                "reference": "4f455cae842dcc8ff4729bf916cc1afdc5c4a18b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NGFramer/ngframer.php.dbservice/zipball/5411c207341033e0b4486f16a31c420f9adcc433",
-                "reference": "5411c207341033e0b4486f16a31c420f9adcc433",
+                "url": "https://api.github.com/repos/NGFramer/ngframer.php.dbservice/zipball/4f455cae842dcc8ff4729bf916cc1afdc5c4a18b",
+                "reference": "4f455cae842dcc8ff4729bf916cc1afdc5c4a18b",
                 "shasum": ""
             },
             "type": "library",
@@ -84,9 +84,9 @@
             "description": "Simple yet powerful database layer for PHP.",
             "support": {
                 "issues": "https://github.com/NGFramer/ngframer.php.dbservice/issues",
-                "source": "https://github.com/NGFramer/ngframer.php.dbservice/tree/v1.0.0"
+                "source": "https://github.com/NGFramer/ngframer.php.dbservice/tree/v1.0.1"
             },
-            "time": "2024-02-29T11:12:10+00:00"
+            "time": "2024-03-01T06:41:48+00:00"
         }
     ],
     "packages-dev": [],
