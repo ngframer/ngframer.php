@@ -4,21 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2150a130588f8c9521fbd7734426aebb",
+    "content-hash": "979daa527c819e74a862ce5d876fa13d",
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/NGFramer/ngframer.php.base.git",
-                "reference": "33106baa6225abb16b26942d0dbb78a11e22c0af"
+                "url": "https://github.com/ngframer/ngframer.php.base.git",
+                "reference": "eefed9d2437877fe0655d77b3046e98811cfcfbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NGFramer/ngframer.php.base/zipball/33106baa6225abb16b26942d0dbb78a11e22c0af",
-                "reference": "33106baa6225abb16b26942d0dbb78a11e22c0af",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/eefed9d2437877fe0655d77b3046e98811cfcfbf",
+                "reference": "eefed9d2437877fe0655d77b3046e98811cfcfbf",
                 "shasum": ""
+            },
+            "require": {
+                "ngframer/ngframer.php.exceptions": "^v1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -42,24 +45,27 @@
             ],
             "description": "Base files for the NGFramerPHP framework.",
             "support": {
-                "issues": "https://github.com/NGFramer/ngframer.php.base/issues",
-                "source": "https://github.com/NGFramer/ngframer.php.base/tree/v1.0.1"
+                "issues": "https://github.com/ngframer/ngframer.php.base/issues",
+                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.0.2"
             },
-            "time": "2024-02-29T07:24:48+00:00"
+            "time": "2024-06-04T12:18:15+00:00"
         },
         {
             "name": "ngframer/ngframer.php.dbservice",
-            "version": "v1.0.1",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/NGFramer/ngframer.php.dbservice.git",
-                "reference": "4f455cae842dcc8ff4729bf916cc1afdc5c4a18b"
+                "url": "https://github.com/ngframer/ngframer.php.dbservice.git",
+                "reference": "2dbcb437f8498d00bca79aeda6d7728e9f82dec8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NGFramer/ngframer.php.dbservice/zipball/4f455cae842dcc8ff4729bf916cc1afdc5c4a18b",
-                "reference": "4f455cae842dcc8ff4729bf916cc1afdc5c4a18b",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.dbservice/zipball/2dbcb437f8498d00bca79aeda6d7728e9f82dec8",
+                "reference": "2dbcb437f8498d00bca79aeda6d7728e9f82dec8",
                 "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*"
             },
             "type": "library",
             "autoload": {
@@ -83,29 +89,28 @@
             ],
             "description": "Simple yet powerful database layer for PHP.",
             "support": {
-                "issues": "https://github.com/NGFramer/ngframer.php.dbservice/issues",
-                "source": "https://github.com/NGFramer/ngframer.php.dbservice/tree/v1.0.1"
+                "issues": "https://github.com/ngframer/ngframer.php.dbservice/issues",
+                "source": "https://github.com/ngframer/ngframer.php.dbservice/tree/v1.1.1"
             },
-            "time": "2024-03-01T06:41:48+00:00"
+            "time": "2024-06-03T12:30:08+00:00"
         },
         {
             "name": "ngframer/ngframer.php.exceptions",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.exceptions.git",
-                "reference": "e99a5a284bf74eb947ecebb67fe765e47d0bfc37"
+                "reference": "70492c7ce841e903db68e3bbe9c1c2af10baab0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.exceptions/zipball/e99a5a284bf74eb947ecebb67fe765e47d0bfc37",
-                "reference": "e99a5a284bf74eb947ecebb67fe765e47d0bfc37",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.exceptions/zipball/70492c7ce841e903db68e3bbe9c1c2af10baab0a",
+                "reference": "70492c7ce841e903db68e3bbe9c1c2af10baab0a",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [],
@@ -133,17 +138,15 @@
             "description": "Exception and Exception handler for all the NGFramer projects and mostly used Exceptions and Exception handlers.",
             "support": {
                 "issues": "https://github.com/ngframer/ngframer.php.exceptions/issues",
-                "source": "https://github.com/ngframer/ngframer.php.exceptions/tree/main"
+                "source": "https://github.com/ngframer/ngframer.php.exceptions/tree/v1.0.0"
             },
-            "time": "2024-06-04T07:31:29+00:00"
+            "time": "2024-06-04T10:29:54+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ngframer/ngframer.php.exceptions": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
