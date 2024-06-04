@@ -4,27 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e0d247360b8087eab63352df812f41a",
+    "content-hash": "821ad3d9ec03cb5c2d9e51e66e70f9ae",
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.base.git",
-                "reference": "eefed9d2437877fe0655d77b3046e98811cfcfbf"
+                "reference": "b47feb78e93c957d36b90d27869bc18b5c1dc9c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/eefed9d2437877fe0655d77b3046e98811cfcfbf",
-                "reference": "eefed9d2437877fe0655d77b3046e98811cfcfbf",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/b47feb78e93c957d36b90d27869bc18b5c1dc9c9",
+                "reference": "b47feb78e93c957d36b90d27869bc18b5c1dc9c9",
                 "shasum": ""
             },
             "require": {
-                "ngframer/ngframer.php.exceptions": "^v1.0.0"
+                "ngframer/ngframer.php.exceptions": "^v1.0.1"
             },
             "type": "library",
             "autoload": {
+                "files": [
+                    "init.php"
+                ],
                 "psr-4": {
                     "NGFramer\\NGFramerPHPBase\\": "/"
                 }
@@ -46,9 +49,9 @@
             "description": "Base files for the NGFramerPHP framework.",
             "support": {
                 "issues": "https://github.com/ngframer/ngframer.php.base/issues",
-                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.0.2"
+                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.0.3"
             },
-            "time": "2024-06-04T12:18:15+00:00"
+            "time": "2024-06-04T15:10:49+00:00"
         },
         {
             "name": "ngframer/ngframer.php.dbservice",
