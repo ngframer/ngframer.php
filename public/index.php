@@ -1,7 +1,10 @@
 <?php
 
 // Filename: index.php
-// Location: ngframerphp/public/index.php
+// Location: ngframer.php/public/index.php
+
+// Error logging turn on to everything.
+error_reporting(E_ALL);
 
 // Load the autoloader and use namespace.
 require_once  __DIR__ . '/../config/application.php';
@@ -17,6 +20,7 @@ $application = new Application();
 try {
     Application::$application->run();
 } catch (Exception $e) {
+    error_log($e);
     echo $e->getMessage();
     exit;
 }
