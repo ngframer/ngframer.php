@@ -7,7 +7,6 @@
 error_reporting(E_ALL);
 
 // Load the autoloader and use namespace.
-require_once  __DIR__ . '/../config/application.php';
 require_once  __DIR__ . '/../vendor/autoload.php';
 
 // Start using the namespace.
