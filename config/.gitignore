@@ -1,2 +1,2 @@
 # Ignore the following files from the container directory.
-database.php
+DatabaseConfig.php

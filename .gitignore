@@ -6,4 +6,3 @@ vendor
 
 
 # Ignore the following custom files.
-config/database.php
