@@ -19,8 +19,8 @@
     }
   ],
   "require": {
-    "ngframer/ngframer.php.base": "v1.0.3",
-    "ngframer/ngframer.php.dbservice": "v1.1.1",
-    "ngframer/ngframer.php.exceptions": "v1.0.1"
+    "ngframer/ngframer.php.base": "v1.0.4",
+    "ngframer/ngframer.php.dbservice": "v1.1.2",
+    "ngframer/ngframer.php.exceptions": "v1.0.2"
   }
 }
