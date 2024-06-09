@@ -16,11 +16,11 @@ class DatabaseConfig
         // Setting up instance of the class.
         self::$instance = $this;
         // Setting up the variables to store data of applicationConfig.
-        $this->databaseConfig['db_name'] = 'users';
+        $this->databaseConfig['db_name'] = 'exampleDbName';
         $this->databaseConfig['db_host'] = 'localhost';
         $this->databaseConfig['db_port'] = 3306;
-        $this->databaseConfig['db_user'] = 'root';
-        $this->databaseConfig['db_pass'] = '';
+        $this->databaseConfig['db_user'] = 'exampleDbUser';
+        $this->databaseConfig['db_pass'] = 'exampleDbPass';
         $this->databaseConfig['db_dsn'] = 'mysql:host='.self::get('db_host').';dbname='.self::get('db_name').';';
     }
 
