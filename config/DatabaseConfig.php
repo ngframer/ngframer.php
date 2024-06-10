@@ -22,6 +22,8 @@ class DatabaseConfig
         $this->databaseConfig['db_user'] = 'exampleDbUser';
         $this->databaseConfig['db_pass'] = 'exampleDbPass';
         $this->databaseConfig['db_dsn'] = 'mysql:host='.self::get('db_host').';dbname='.self::get('db_name').';';
+        // Setting up the current level of database migration if exists.
+        $this->databaseConfig['db_migration'] = '1'; // Possible values: ['0', '1, 2, n, '1', '2', 'n', 'none', '']
     }
 
 
