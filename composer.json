@@ -1,5 +1,4 @@
 {
-  
   "name": "ngframer/ngframer.php",
   "description": "Build your application with NGFramer builder framework.",
   "license": "MIT",
@@ -19,8 +18,7 @@
     }
   ],
   "require": {
-    "ngframer/ngframer.php.base": "v1.0.4",
-    "ngframer/ngframer.php.dbservice": "v1.1.2",
-    "ngframer/ngframer.php.exceptions": "v1.0.2"
+    "ngframer/ngframer.php.base": "v1.0.5",
+    "ngframer/ngframer.php.exceptions": "v1.1.0"
   }
 }
