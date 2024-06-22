@@ -19,7 +19,12 @@ $application = new Application();
 try {
     Application::$application->run();
 } catch (Exception $e) {
-    error_log($e);
-    echo $e->getMessage();
-    exit;
+    // Log the error.
+    error_log(json_encode($e));
+    if (\app\config\ApplicationConfig::get('appMode') == 'api') {
+        throw $e;
+    }
+    else {
+        // TODO: Handle the error, Use the most appropriate error handler.
+    }
 }
