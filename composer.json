@@ -5,7 +5,10 @@
   "autoload": {
     "psr-4": {
       "app\\": ""
-    }
+    },
+    "files": [
+      "init.php"
+    ]
   },
   "authors": [
     {
@@ -18,7 +21,7 @@
     }
   ],
   "require": {
-    "ngframer/ngframer.php.base": "~v1.0.6",
+    "ngframer/ngframer.php.base": "~v1.0.7",
     "ngframer/ngframer.php.exceptions": "~v1.1.1"
   }
 }
