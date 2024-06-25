@@ -2,6 +2,8 @@
 
 namespace app\config;
 
+use Exception;
+
 class DatabaseConfig
 {
     // Variables to store data related to this class.
@@ -11,6 +13,9 @@ class DatabaseConfig
     private array $databaseConfig = [];
 
 
+    /**
+     * @throws Exception
+     */
     private function init(): void
     {
         // Setting up instance of the class.
@@ -23,10 +28,13 @@ class DatabaseConfig
         $this->databaseConfig['db_pass'] = 'exampleDbPass';
         $this->databaseConfig['db_dsn'] = 'mysql:host='.self::get('db_host').';dbname='.self::get('db_name').';';
         // Setting up the current level of database migration if exists.
-        $this->databaseConfig['db_migration'] = '1'; // Possible values: ['0', '1, 2, n, '1', '2', 'n', 'none', '']
+        $this->databaseConfig['db_migration'] = 'latest'; // Possible values: ['0', '1, 2, n, '1', '2', 'n', 'none', '']
     }
 
 
+    /**
+     * @throws Exception
+     */
     public static function get(string $variableName): mixed
     {
         // Check if the instance is set.
@@ -34,6 +42,6 @@ class DatabaseConfig
             (new self())->init();
         }
         // Return the variable if it exists.
-        return self::$instance->databaseConfig[$variableName] ?? throw new \Exception('Variable not found in databaseConfig config class.');
+        return self::$instance->databaseConfig[$variableName] ?? throw new Exception('Variable not found in databaseConfig config class.');
     }
 }
