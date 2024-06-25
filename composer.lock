@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7c30cea1182203f5cb5b4bc88bffbd3",
+    "content-hash": "8c951326a858e285002bd7aad3cf3d41",
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.base.git",
-                "reference": "5e5b980814b8ad006005198f7b22f137765bf22d"
+                "reference": "4ab0697e5dd89710d90ecc06414ac0bcee562367"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/5e5b980814b8ad006005198f7b22f137765bf22d",
-                "reference": "5e5b980814b8ad006005198f7b22f137765bf22d",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/4ab0697e5dd89710d90ecc06414ac0bcee562367",
+                "reference": "4ab0697e5dd89710d90ecc06414ac0bcee562367",
                 "shasum": ""
             },
             "require": {
                 "ngframer/ngframer.php.exceptions": "~v1.1.1",
-                "ngframer/ngframer.php.sqlservices": "~v1.1.0"
+                "ngframer/ngframer.php.sqlservices": "~v1.1.3"
             },
             "type": "library",
             "autoload": {
@@ -50,9 +50,9 @@
             "description": "Base files for the NGFramerPHP framework.",
             "support": {
                 "issues": "https://github.com/ngframer/ngframer.php.base/issues",
-                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.0.7"
+                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.0.8"
             },
-            "time": "2024-06-22T07:16:23+00:00"
+            "time": "2024-06-24T16:49:55+00:00"
         },
         {
             "name": "ngframer/ngframer.php.dbservice",
@@ -148,16 +148,16 @@
         },
         {
             "name": "ngframer/ngframer.php.sqlservices",
-            "version": "v1.1.0",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.sqlservices.git",
-                "reference": "8f1a21ff21ceeb0452844e1b1ba47763cb3b056d"
+                "reference": "0f5e731d23a6cebda1fd4d0d1581a170f5b717eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.sqlservices/zipball/8f1a21ff21ceeb0452844e1b1ba47763cb3b056d",
-                "reference": "8f1a21ff21ceeb0452844e1b1ba47763cb3b056d",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.sqlservices/zipball/0f5e731d23a6cebda1fd4d0d1581a170f5b717eb",
+                "reference": "0f5e731d23a6cebda1fd4d0d1581a170f5b717eb",
                 "shasum": ""
             },
             "require": {
@@ -190,9 +190,9 @@
             "description": "Build all the SQL queries using PHP, and also an executor.",
             "support": {
                 "issues": "https://github.com/ngframer/ngframer.php.sqlservices/issues",
-                "source": "https://github.com/ngframer/ngframer.php.sqlservices/tree/v1.1.0"
+                "source": "https://github.com/ngframer/ngframer.php.sqlservices/tree/v1.1.3"
             },
-            "time": "2024-06-20T18:08:15+00:00"
+            "time": "2024-06-24T16:36:09+00:00"
         }
     ],
     "packages-dev": [],
