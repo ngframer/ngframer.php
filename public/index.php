@@ -1,7 +1,7 @@
 <?php
 
 // Filename: index.php
-// Location: ngframer.php/public/index.php
+// Location: app/public/index.php
 
 // Error logging turn on to everything.
 error_reporting(E_ALL);
