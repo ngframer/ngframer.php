@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00c5babb5e0dcd918840157979bbc9c5",
+    "content-hash": "e543f7d99d9b7ed394695d31ed4a0549",
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
-            "version": "v1.0.10",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.base.git",
-                "reference": "474abf9ec32baac4b3818f128442670b0f983a0b"
+                "reference": "45d5a7ccf581f195e720dcbccead23f985b882b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/474abf9ec32baac4b3818f128442670b0f983a0b",
-                "reference": "474abf9ec32baac4b3818f128442670b0f983a0b",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/45d5a7ccf581f195e720dcbccead23f985b882b0",
+                "reference": "45d5a7ccf581f195e720dcbccead23f985b882b0",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             "description": "Base files for the NGFramerPHP framework.",
             "support": {
                 "issues": "https://github.com/ngframer/ngframer.php.base/issues",
-                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.0.10"
+                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.1.0"
             },
-            "time": "2024-06-25T15:22:08+00:00"
+            "time": "2024-06-26T05:26:33+00:00"
         },
         {
             "name": "ngframer/ngframer.php.dbservice",
@@ -152,12 +152,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.sqlservices.git",
-                "reference": "f74afb6ebf48efbae5f23e1bf0c7852ca15661a2"
+                "reference": "32fc3acd1d49bdb915b9ccca26079c1dd4d59562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.sqlservices/zipball/f74afb6ebf48efbae5f23e1bf0c7852ca15661a2",
-                "reference": "f74afb6ebf48efbae5f23e1bf0c7852ca15661a2",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.sqlservices/zipball/32fc3acd1d49bdb915b9ccca26079c1dd4d59562",
+                "reference": "32fc3acd1d49bdb915b9ccca26079c1dd4d59562",
                 "shasum": ""
             },
             "require": {
@@ -192,7 +192,7 @@
                 "issues": "https://github.com/ngframer/ngframer.php.sqlservices/issues",
                 "source": "https://github.com/ngframer/ngframer.php.sqlservices/tree/v1.2.0"
             },
-            "time": "2024-06-25T15:00:47+00:00"
+            "time": "2024-06-26T05:13:24+00:00"
         }
     ],
     "packages-dev": [],

@@ -21,7 +21,7 @@
     }
   ],
   "require": {
-    "ngframer/ngframer.php.base": "~v1.0.10",
+    "ngframer/ngframer.php.base": "~v1.1.0",
     "ngframer/ngframer.php.exceptions": "~v1.1.1"
   }
 }
