@@ -5,6 +5,7 @@
 
 // Error logging turn on to everything.
 error_reporting(E_ALL);
+ini_set('error_log', '../logs/errors.log');
 
 // Load the autoloader and use namespace.
 require_once  __DIR__ . '/../vendor/autoload.php';
