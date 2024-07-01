@@ -1,3 +1,3 @@
-# Ignore the following files from the container directory.
+# Ignore the following files.
 database_errors.log
 errors.log

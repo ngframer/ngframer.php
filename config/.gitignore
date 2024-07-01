@@ -1,2 +1,2 @@
-# Ignore the following files from the container directory.
+# Ignore the following files.
 DatabaseConfig.php
