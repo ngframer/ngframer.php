@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0484722a086ff78e33f37d985c294ea4",
+    "content-hash": "b3283e290bfc09b1b8c518bc9ef686f6",
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.base.git",
-                "reference": "6f6e70beea840a2c8f3623957de519b410e09161"
+                "reference": "852a033308e9eaf78df006e8ada3935b65613bda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/6f6e70beea840a2c8f3623957de519b410e09161",
-                "reference": "6f6e70beea840a2c8f3623957de519b410e09161",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/852a033308e9eaf78df006e8ada3935b65613bda",
+                "reference": "852a033308e9eaf78df006e8ada3935b65613bda",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             "description": "Base files for the NGFramerPHP framework.",
             "support": {
                 "issues": "https://github.com/ngframer/ngframer.php.base/issues",
-                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.3.1"
+                "source": "https://github.com/ngframer/ngframer.php.base/tree/v1.3.2"
             },
-            "time": "2024-07-03T08:29:48+00:00"
+            "time": "2024-07-03T13:31:46+00:00"
         },
         {
             "name": "ngframer/ngframer.php.dbservices",
