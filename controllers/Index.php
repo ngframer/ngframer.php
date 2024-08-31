@@ -2,7 +2,9 @@
 
 namespace app\controllers;
 
-class Index extends \NGFramer\NGFramerPHPBase\Controller
+use NGFramer\NGFramerPHPBase\controller\Controller;
+
+class Index extends Controller
 {
     public function index()
     {

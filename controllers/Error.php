@@ -2,7 +2,9 @@
 
 namespace app\controllers;
 
-class Error extends \NGFramer\NGFramerPHPBase\Controller
+use NGFramer\NGFramerPHPBase\controller\Controller;
+
+class Error extends Controller
 {
     public function index()
     {
