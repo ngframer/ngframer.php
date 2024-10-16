@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.base.git",
-                "reference": "3a138895205644d819e1cf6ccf6521b61e8ad8b0"
+                "reference": "51f58bf6d59aba5bf3d5c9a870133df4aaa568f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/3a138895205644d819e1cf6ccf6521b61e8ad8b0",
-                "reference": "3a138895205644d819e1cf6ccf6521b61e8ad8b0",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/51f58bf6d59aba5bf3d5c9a870133df4aaa568f8",
+                "reference": "51f58bf6d59aba5bf3d5c9a870133df4aaa568f8",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "issues": "https://github.com/ngframer/ngframer.php.base/issues",
                 "source": "https://github.com/ngframer/ngframer.php.base/tree/v2.0.0"
             },
-            "time": "2024-08-31T11:24:52+00:00"
+            "time": "2024-10-16T09:08:41+00:00"
         },
         {
             "name": "ngframer/ngframer.php.dbservices",
