@@ -2,12 +2,12 @@
 
 namespace app\exceptions\factory;
 
-use app\config\ApplicationConfig;
 use Exception;
-use NGFramer\NGFramerPHPExceptions\exceptions\_BaseError;
-use NGFramer\NGFramerPHPExceptions\Render;
-use NGFramer\NGFramerPHPExceptions\renderer\supportive\_BaseRenderer;
 use Throwable;
+use app\config\ApplicationConfig;
+use NGFramer\NGFramerPHPExceptions\Render;
+use NGFramer\NGFramerPHPExceptions\exceptions\_BaseError;
+use NGFramer\NGFramerPHPExceptions\renderer\supportive\_BaseRenderer;
 
 class RendererFactory
 {
@@ -34,7 +34,7 @@ class RendererFactory
             ini_set('display_startup_errors', 0);
         }
 
-        // Set error reporting to all.
+        // Set error reporting to all whatever the appMode be.
         error_reporting(E_ALL);
 
         // Use this snippet of code to use your own renderer.
@@ -46,6 +46,7 @@ class RendererFactory
         $renderer->render($exception);
     }
 
+
     /**
      * Function to register the exception handler.
      */
@@ -55,11 +56,13 @@ class RendererFactory
         set_exception_handler([$this, 'globalHandler']);
     }
 
+
     /**
      * Function to create a new renderer factory.
      * Creates and returns an appropriate Exception renderer based on the environment.
      *
      * @returns _BaseRenderer
+     * @throws Exception
      */
     public static function create(): _BaseRenderer
     {
