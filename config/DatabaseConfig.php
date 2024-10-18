@@ -6,19 +6,31 @@ use Exception;
 
 class DatabaseConfig
 {
-    // Variables to store data related to this class.
+    /**
+     * Variable to store the instance of the class.
+     * @var DatabaseConfig|null $instance
+     */
     private static ?self $instance;
 
-    // Variables to store data related to this applicationConfig.
+
+    /**
+     * Variable to store the database configuration data.
+     * @var array $databaseConfig
+     */
     private array $databaseConfig = [];
 
 
     /**
+     * Function to initialize the Configuration.
+     * Set the variable not directly to the class.
+     * Set from databaseConfig variable in this function to avoid problems.
+     *
+     * @return void
      * @throws Exception
      */
     private function init(): void
     {
-        // Setting up instance of the class.
+        // Setting up an instance of the class.
         self::$instance = $this;
         // Setting up the variables to store data of applicationConfig.
         $this->databaseConfig['db_name'] = 'exampleDbName';
@@ -33,6 +45,10 @@ class DatabaseConfig
 
 
     /**
+     * Function to get the database configuration details.
+     *
+     * @param string $variableName
+     * @return mixed
      * @throws Exception
      */
     public static function get(string $variableName): mixed

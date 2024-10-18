@@ -2,18 +2,34 @@
 
 namespace app\config;
 
+use Exception;
+
 class ApplicationConfig
 {
-    // Variables to store data related to this class.
+    /**
+     * Variable to store the instance of the class.
+     * @var ApplicationConfig|null $instance
+     */
     private static ?self $instance;
 
-    // Variables to store data related to this applicationConfig.
+
+    /**
+     * Variable to store the application configuration data.
+     * @var array $applicationConfig
+     */
     private array $applicationConfig = [];
 
 
+    /**
+     * Function to initialize the Configuration.
+     * Set the variable not directly to the class.
+     * Set from applicationConfig variable in this function to avoid problems.
+     *
+     * @return void
+     */
     private function init(): void
     {
-        // Setting up instance of the class.
+        // Setting up an instance of the class.
         self::$instance = $this;
         // Setting up the variables to store data of applicationConfig.
         // Setting up the name of the application.
@@ -22,11 +38,18 @@ class ApplicationConfig
         $this->applicationConfig['root'] = dirname(__DIR__);
         $this->applicationConfig['namespace'] = 'app';
         // Setting up application mode and application type.
-        $this->applicationConfig['appMode'] = ''; // Possible values: [production, development]
-        $this->applicationConfig['appType'] = ''; // Possible values: ['api, web].
+        $this->applicationConfig['appMode'] = 'development'; // Possible values: [production, development]
+        $this->applicationConfig['appType'] = 'web'; // Possible values: ['api, web].
     }
 
 
+    /**
+     * Function to get the application configuration details.
+     *
+     * @param string $variableName
+     * @return mixed
+     * @throws Exception
+     */
     public static function get(string $variableName): mixed
     {
         // Check if the instance is set.
@@ -34,6 +57,6 @@ class ApplicationConfig
             (new self())->init();
         }
         // Return the variable if it exists.
-        return self::$instance->applicationConfig[$variableName] ?? throw new \Exception('Variable not found in ApplicationConfig class.');
+        return self::$instance->applicationConfig[$variableName] ?? throw new Exception('Variable not found in ApplicationConfig class.');
     }
 }
