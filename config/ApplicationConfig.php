@@ -38,8 +38,8 @@ class ApplicationConfig
         $this->applicationConfig['root'] = dirname(__DIR__);
         $this->applicationConfig['namespace'] = 'app';
         // Setting up application mode and application type.
-        $this->applicationConfig['appMode'] = 'development'; // Possible values: [production, development]
-        $this->applicationConfig['appType'] = 'web'; // Possible values: ['api, web].
+        $this->applicationConfig['appMode'] = ''; // Possible values: [production, development]
+        $this->applicationConfig['appType'] = ''; // Possible values: ['api, web].
     }
 
 
