@@ -24,6 +24,10 @@ class RendererFactory
         // For ngframer.php, you can use the following code.
         $appMode = ApplicationConfig::get('appMode');
 
+        // Error logging turn on to everything.
+        error_reporting(E_ALL);
+        ini_set('error_log', '../logs/errors.log');
+
         // Check if the appMode is development.
         // Applicable to if you're using ngframer.php or not.
         if ($appMode == 'development') {
@@ -33,9 +37,6 @@ class RendererFactory
             ini_set('display_errors', 0);
             ini_set('display_startup_errors', 0);
         }
-
-        // Set error reporting to all whatever the appMode be.
-        error_reporting(E_ALL);
 
         // Use this snippet of code to use your own renderer.
         // $renderer = $this->create();
