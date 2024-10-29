@@ -2,14 +2,14 @@
 
 namespace app\middlewares;
 
-use NGFramer\NGFramerPHPBase\middleware\Middleware;
+use app\exceptions\AppException;
+use NGFramer\NGFramerPHPBase\middleware\BaseMiddleware;
 use NGFramer\NGFramerPHPBase\Request;
-use NGFramer\NGFramerPHPExceptions\exceptions\ForbiddenException;
 
-class Auth extends Middleware
+class Auth extends BaseMiddleware
 {
     public function execute(Request $request, callable $callback): void
     {
-        Throw new ForbiddenException();
+        throw new AppException('You are not authorized to access page.', 0, 'app.unauthorized', null, 401);
     }
 }
