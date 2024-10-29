@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "ngframer/ngframer.php.base",
-            "version": "v2.0.7",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ngframer/ngframer.php.base.git",
-                "reference": "c2f95df51675c5a00d31c0fb7cdc57d12bde185f"
+                "reference": "6eed934fb1fe03799e9acb7711b0f3ac64c1543f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/c2f95df51675c5a00d31c0fb7cdc57d12bde185f",
-                "reference": "c2f95df51675c5a00d31c0fb7cdc57d12bde185f",
+                "url": "https://api.github.com/repos/ngframer/ngframer.php.base/zipball/6eed934fb1fe03799e9acb7711b0f3ac64c1543f",
+                "reference": "6eed934fb1fe03799e9acb7711b0f3ac64c1543f",
                 "shasum": ""
             },
             "require": {
@@ -47,9 +47,9 @@
             "description": "Base files for the NGFramerPHP framework.",
             "support": {
                 "issues": "https://github.com/ngframer/ngframer.php.base/issues",
-                "source": "https://github.com/ngframer/ngframer.php.base/tree/v2.0.7"
+                "source": "https://github.com/ngframer/ngframer.php.base/tree/v2.1.0"
             },
-            "time": "2024-10-29T06:20:28+00:00"
+            "time": "2024-10-29T14:45:16+00:00"
         },
         {
             "name": "ngframer/ngframer.php.dbservices",
