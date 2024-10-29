@@ -1,9 +1,9 @@
 <?php
 
-namespace app\middlewares;
+namespace App\Middlewares;
 
-use app\exceptions\AppException;
-use NGFramer\NGFramerPHPBase\middleware\BaseMiddleware;
+use App\Exceptions\AppException;
+use NGFramer\NGFramerPHPBase\Middleware\BaseMiddleware;
 use NGFramer\NGFramerPHPBase\Request;
 
 class Auth extends BaseMiddleware

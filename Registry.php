@@ -1,8 +1,8 @@
 <?php
 
-use app\controllers\Index;
-use app\controllers\Error;
-use NGFramer\NGFramerPHPBase\registry\RegistrySetter;
+use App\Controllers\Index;
+use App\Controllers\Error;
+use NGFramer\NGFramerPHPBase\Registry\RegistrySetter;
 
 // Creating a new instance of the RegistrySetter.
 $registry = new RegistrySetter();

@@ -1,10 +1,10 @@
 <?php
 
-namespace app\exceptions\factory;
+namespace App\Exceptions\Factory;
 
 use Exception;
 use Throwable;
-use app\config\ApplicationConfig;
+use App\Config\ApplicationConfig;
 use NGFramer\NGFramerPHPExceptions\Render;
 use NGFramer\NGFramerPHPExceptions\exceptions\BaseError;
 use NGFramer\NGFramerPHPExceptions\renderer\supportive\_BaseRenderer;

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace App\Models;
 
 use Exception;
 use NGFramer\NGFramerPHPBase\model\DbModel;

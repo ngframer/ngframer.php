@@ -1,13 +1,13 @@
 <?php
 
 // Filename: index.php
-// Location: app/public/index.php
+// Location: App/Public/index.php
 
 // Load the autoloader and use namespace.
 require_once  __DIR__ . '/../vendor/autoload.php';
 
 // Start using the following classes.
-use app\exceptions\factory\RendererFactory;
+use App\Exceptions\Factory\RendererFactory;
 use NGFramer\NGFramerPHPBase\Application;
 
 // Start the error renderer factory.

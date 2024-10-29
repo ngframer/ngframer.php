@@ -1,8 +1,8 @@
 <?php
 
-namespace app\config;
+namespace App\Config;
 
-use app\exceptions\AppException;
+use App\Exceptions\AppException;
 use Exception;
 
 class ApplicationConfig

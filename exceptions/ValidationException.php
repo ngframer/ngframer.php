@@ -1,8 +1,8 @@
 <?php
 
-namespace app\exceptions;
+namespace App\Exceptions;
 
-use NGFramer\NGFramerPHPExceptions\exceptions\BaseException;
+use NGFramer\NGFramerPHPExceptions\Exceptions\BaseException;
 use Throwable;
 
 class ValidationException extends BaseException
