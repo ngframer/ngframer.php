@@ -18,8 +18,8 @@
     }
   ],
   "require": {
-    "ngframer/ngframer.php.base": "~v2.0.1",
-    "ngframer/ngframer.php.exceptions": "~v2.0.1"
+    "ngframer/ngframer.php.base": "^v2.0.7",
+    "ngframer/ngframer.php.exceptions": "^v2.0.3"
 
   }
 }
