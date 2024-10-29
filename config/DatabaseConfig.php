@@ -2,6 +2,7 @@
 
 namespace app\config;
 
+use app\exceptions\AppException;
 use Exception;
 
 class DatabaseConfig
@@ -58,6 +59,6 @@ class DatabaseConfig
             (new self())->init();
         }
         // Return the variable if it exists.
-        return self::$instance->databaseConfig[$variableName] ?? throw new Exception('Variable not found in databaseConfig config class.');
+        return self::$instance->databaseConfig[$variableName] ?? throw new AppException('Variable not found in databaseConfig config class.');
     }
 }

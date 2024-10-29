@@ -2,6 +2,7 @@
 
 namespace app\config;
 
+use app\exceptions\AppException;
 use Exception;
 
 class ApplicationConfig
@@ -57,6 +58,6 @@ class ApplicationConfig
             (new self())->init();
         }
         // Return the variable if it exists.
-        return self::$instance->applicationConfig[$variableName] ?? throw new Exception('Variable not found in ApplicationConfig class.');
+        return self::$instance->applicationConfig[$variableName] ?? throw new AppException('Variable not found in ApplicationConfig class.');
     }
 }
