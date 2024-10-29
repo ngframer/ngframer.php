@@ -6,7 +6,7 @@ use Exception;
 use Throwable;
 use app\config\ApplicationConfig;
 use NGFramer\NGFramerPHPExceptions\Render;
-use NGFramer\NGFramerPHPExceptions\exceptions\_BaseError;
+use NGFramer\NGFramerPHPExceptions\exceptions\BaseError;
 use NGFramer\NGFramerPHPExceptions\renderer\supportive\_BaseRenderer;
 
 class RendererFactory
@@ -53,7 +53,7 @@ class RendererFactory
      */
     public function register(): void
     {
-        set_error_handler([(new _BaseError()), 'convertToException']);
+        set_error_handler([(new BaseError()), 'convertToException']);
         set_exception_handler([$this, 'globalHandler']);
     }
 
