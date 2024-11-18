@@ -6,8 +6,8 @@ use Exception;
 use Throwable;
 use App\Config\ApplicationConfig;
 use NGFramer\NGFramerPHPExceptions\Render;
-use NGFramer\NGFramerPHPExceptions\exceptions\BaseError;
-use NGFramer\NGFramerPHPExceptions\renderer\supportive\_BaseRenderer;
+use NGFramer\NGFramerPHPExceptions\Exceptions\BaseError;
+use NGFramer\NGFramerPHPExceptions\Renderer\supportive\_BaseRenderer;
 
 class RendererFactory
 {
