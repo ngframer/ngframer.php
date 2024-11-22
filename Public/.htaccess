@@ -11,9 +11,9 @@
 </IfModule>
 
 # Set the error document.
-ErrorDocument 400 https://test.neupgroup.com/error/400
-ErrorDocument 401 https://test.neupgroup.com/error/401
-ErrorDocument 402 https://test.neupgroup.com/error/402
-ErrorDocument 403 https://test.neupgroup.com/error/403
-ErrorDocument 404 https://test.neupgroup.com/error/404
-ErrorDocument 500 https://test.neupgroup.com/error/500
+ErrorDocument 400 https://website.tld/error/400
+ErrorDocument 401 https://website.tld/error/401
+ErrorDocument 402 https://website.tld/error/402
+ErrorDocument 403 https://website.tld/error/403
+ErrorDocument 404 https://website.tld/error/404
+ErrorDocument 500 https://website.tld/error/500
