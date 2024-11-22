@@ -1,7 +1,19 @@
+# Check if the module for rewriting is on.
 <IfModule mod_rewrite.c>
     RewriteEngine On
-
+    # If only the file name does not exists.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php/$1 [L,E=REDIRECT_URL:$1]
+    # If only the file and folder does not exists.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ index.php/$1 [L]
+    RewriteRule ^(.*)$ index.php/$1 [L,E=REDIRECT_URL:$1]
 </IfModule>
+
+# Set the error document.
+ErrorDocument 400 https://test.neupgroup.com/error/400
+ErrorDocument 401 https://test.neupgroup.com/error/401
+ErrorDocument 402 https://test.neupgroup.com/error/402
+ErrorDocument 403 https://test.neupgroup.com/error/403
+ErrorDocument 404 https://test.neupgroup.com/error/404
+ErrorDocument 500 https://test.neupgroup.com/error/500
