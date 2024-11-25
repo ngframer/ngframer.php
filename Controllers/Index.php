@@ -6,7 +6,7 @@ use NGFramer\NGFramerPHPBase\controller\Controller;
 
 class Index extends Controller
 {
-    public function index()
+    public function index(): void
     {
     }
 }

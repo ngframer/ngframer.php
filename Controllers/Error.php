@@ -6,7 +6,7 @@ use NGFramer\NGFramerPHPBase\controller\Controller;
 
 class Error extends Controller
 {
-    public function index()
+    public function index(): void
     {
     }
 }
