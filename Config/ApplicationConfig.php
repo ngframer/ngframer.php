@@ -40,7 +40,7 @@ class ApplicationConfig
         $this->applicationConfig['namespace'] = 'app';
         // Setting up application mode and application type.
         $this->applicationConfig['appMode'] = ''; // Possible values: [production, development]
-        $this->applicationConfig['appType'] = ''; // Possible values: ['api, web].
+        $this->applicationConfig['appType'] = ''; // Possible values: ['api', 'app'].
     }
 
 
