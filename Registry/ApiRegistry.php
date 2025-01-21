@@ -11,4 +11,4 @@ $registry->selectMethod('get')->selectPath('/')->setCallback([App\Controllers\In
 $registry->selectMethod('get')->selectPath('/home')->setCallback([App\Controllers\Index::class, 'index']);
 
 // Error pages.
-$registry->selectMethod('any')->selectPath('any')->setCallback([Error::class, 'index']);
+$registry->selectMethod('any')->selectPath('any')->setCallback([App\Controllers\Error::class, 'index']);
