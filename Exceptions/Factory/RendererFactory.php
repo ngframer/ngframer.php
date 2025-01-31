@@ -2,12 +2,16 @@
 
 namespace App\Exceptions\Factory;
 
-use Exception;
 use Throwable;
+use Exception;
 use App\Config\ApplicationConfig;
 use NGFramer\NGFramerPHPExceptions\Render;
+use NGFramer\NGFramerPHPExceptions\Renderer\ApiExceptionRenderer;
+use NGFramer\NGFramerPHPExceptions\Renderer\CliExceptionRenderer;
+use NGFramer\NGFramerPHPExceptions\Renderer\HtmlExceptionRenderer;
+use NGFramer\NGFramerPHPExceptions\Renderer\Supportive\BaseRenderer;
 use NGFramer\NGFramerPHPExceptions\Exceptions\BaseError;
-use NGFramer\NGFramerPHPExceptions\Renderer\Supportive\_BaseRenderer;
+
 
 class RendererFactory
 {
@@ -62,21 +66,21 @@ class RendererFactory
      * Function to create a new renderer factory.
      * Creates and returns an appropriate Exception renderer based on the environment.
      *
-     * @returns _BaseRenderer
+     * @returns BaseRenderer
      * @throws Exception
      */
-    public static function create(): _BaseRenderer
+    public static function create(): BaseRenderer
     {
         // Check the environment and return the appropriate renderer.
         // Check if the environment is cli.
         if (php_sapi_name() === 'cli') {
-            return new CLIExceptionRenderer();
+            return new CliExceptionRenderer();
         }
 
         // Check if the environment is api.
         if (ApplicationConfig::get('appType') === 'api') {
             if (ApplicationConfig::get('appMode') === 'development') {
-                return new ApiExceptionDevelopmentRenderer();
+                return new ApiExceptionRenderer();
             }
             return new ApiExceptionProductionRenderer();
         }
